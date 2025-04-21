@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.neon-orange-text {
+  color: #ff9900;
+  text-shadow:
+    0 0 2px #ff9900,
+    0 0 2px #ff6600,
+    0 0 1px #ff3300;
+  font-weight: 600;
+}
