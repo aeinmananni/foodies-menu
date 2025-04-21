@@ -11,3 +11,12 @@ export type CommunityItemType = {
   src: string;
   posterImages?: string[];
 };
+
+
+export type ShareFormType = {
+  name: string;
+  email: string;
+  title: string;
+  shortSummery: string;
+  instructions: string;
+};

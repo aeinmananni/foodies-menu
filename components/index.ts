@@ -6,3 +6,4 @@ export * from "./meals";
 export * from "./loading";
 export * from "./not-found";
 export * from "./meals-details";
+export * from "./share";

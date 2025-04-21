@@ -1,6 +1,7 @@
 import Slider from "./slider";
 import ChefHat from "@/public/images/chef-hat_8670192.png";
 import Image from "next/image";
+import Button from "@/UI/button";
 export default function Content() {
   return (
     <div className="w-2/3  h-full bg-yellow-800 bg-opacity-10 backdrop backdrop-blur-md flex gap-1 p-2 rounded-lg overflow-hidden relative mt-20">
@@ -32,9 +33,9 @@ export default function Content() {
           <span className="text-orange-600 font-semibold text-lg">
             Join the Community
           </span>
-          <span className="bg-orange-600 text-white px-3 py-1 rounded-lg text-lg">
+          <Button className="bg-orange-600 text-white px-3 py-1 rounded-lg text-lg">
             Explore Meals
-          </span>
+          </Button>
         </div>
       </div>
     </div>

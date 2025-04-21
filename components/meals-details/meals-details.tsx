@@ -7,7 +7,7 @@ type MealsDetailProps = {
 export default function MealsDetails({ slugId }: MealsDetailProps) {
   const filterMealsDetails = MEALS_ITEMS.find((it) => it.id === slugId);
   return (
-    <div className="flex flex-col w-2/3 gap-10">
+    <div className="flex flex-col w-2/3 gap-10 animate-fade-up">
       <div className="flex  gap-4 mt-12">
         <Image
           src={filterMealsDetails?.src || ""}

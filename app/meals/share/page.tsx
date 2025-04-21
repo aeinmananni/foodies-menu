@@ -1,7 +1,5 @@
-export default function Share() {
-  return (
-    <div>
-      <h1>Share</h1>
-    </div>
-  );
+import { Share } from "@/components";
+
+export default function SharePage() {
+  return <Share />;
 }

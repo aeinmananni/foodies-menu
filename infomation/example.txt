@@ -1,0 +1,7 @@
+import {noutFound} from "next/navigation"
+
+if(conditions){
+    notFound();
+}
+
+--------------------------------------------------------------

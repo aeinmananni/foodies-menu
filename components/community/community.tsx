@@ -2,7 +2,7 @@ import Cart from "./cart";
 import { COMMUNITY_ITEMS } from "../data";
 export default function Community() {
   return (
-    <div className="  h-full flex flex-col items-center gap-16 mt-16 bg-yellow-800 bg-opacity-10 backdrop backdrop-blur-md text-yellow-900 p-2 rounded-lg">
+    <div className="  h-full flex flex-col items-center gap-16 mt-16 bg-yellow-800 bg-opacity-10 backdrop backdrop-blur-md text-yellow-900 p-2 rounded-lg animate-fade-up">
       <div className="flex flex-col gap-7 items-center">
         <div className="text-3xl">
           One shared passion :{" "}

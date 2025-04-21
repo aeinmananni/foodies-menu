@@ -4,7 +4,7 @@ import animateImage from "@/public/images/hot-dog_6438460.png";
 import NavLink from "@/UI/navLink";
 export default function Header() {
   return (
-    <header className="w-2/3 bg-yellow-800 bg-opacity-10 backdrop backdrop-blur-md  flex justify-between items-center p-2 rounded-b-md">
+    <header className="w-2/3 bg-yellow-800 bg-opacity-10 backdrop backdrop-blur-md  flex justify-between items-center p-2 rounded-b-md ">
       <div className="flex justify-center items-center gap-3">
         <Image
           width={60}
