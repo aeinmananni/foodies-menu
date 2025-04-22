@@ -4,7 +4,7 @@ import Image from "next/image";
 import Button from "@/UI/button";
 export default function Content() {
   return (
-    <div className="w-2/3  h-full bg-yellow-800 bg-opacity-10 backdrop backdrop-blur-md flex gap-1 p-2 rounded-lg overflow-hidden relative mt-20">
+    <div className="w-2/3  h-full bg-yellow-800 bg-opacity-10 backdrop backdrop-blur-md flex gap-1 p-2 rounded-lg overflow-hidden relative mt-20 ">
       <div className="w-1/2 h-full">
         <Slider />
       </div>

@@ -3,7 +3,7 @@ import chef from "@/public/images/food_15641222.png";
 import Image from "next/image";
 export default function Footer() {
   return (
-    <div className="relative flex flex-col gap-12 justify-center items-center w-2/3  p-2  h-full bg-yellow-800 bg-opacity-10 backdrop backdrop-blur-md  rounded-lg overflow-hidden">
+    <div className="relative flex flex-col gap-12 justify-center items-center w-2/3  p-2  h-full bg-yellow-800 bg-opacity-10 backdrop backdrop-blur-md  rounded-lg overflow-hidden ">
       <Image
         src={chef.src}
         width={50}
